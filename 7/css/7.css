@@ -1,0 +1,18 @@
+p{
+    color: blue;
+}
+/* 
+.=class 
+#=id */
+
+#para1{
+    color: gold;
+}
+
+.para2{
+    color: green;
+}
+
+table,thead,th,tbody,td{
+    border: 2px solid black;
+}
