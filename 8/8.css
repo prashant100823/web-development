@@ -1,0 +1,26 @@
+p{
+    /* color: blue; */
+    /* color: rgb(255, 100, 300); */
+    color: #9CF840;
+    /* font-family: Verdana; */
+    font-family: algerian;
+    /* font-style: italic; */
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div{
+    border: 2px solid black;
+    /* background: rgb(200, 300, 0); */
+    /* background: black; */
+    /* background: #45467F; */
+   
+}
+body{
+    background:linear-gradient(27deg, blue 50%,yellow 50%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
