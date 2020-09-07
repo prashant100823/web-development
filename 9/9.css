@@ -1,0 +1,52 @@
+body{
+    background: blue;
+}
+img{
+    /* max-width: 100%;
+    height: auto; */
+
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+
+        /* box-shadow: x-offset y-offset color; */
+        box-shadow: 10px 10px white;
+
+        /* box-shadow: x-offset y-offset blur-radious color; */
+        box-shadow: 10px 10px 20px white;
+    
+        /* box-shadow: x-offset y-offset blur-radious spread-radoius color; */
+         box-shadow: 2px 3px 20px 30px white;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+
+font-style: italic;
+font-size: 50px;
+
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 50px;
+
+    /* text-shadow: x-offset y-offset color; */
+    text-shadow: 2px 3px white;
+
+    /* text-shadow: x-offset y-offset blur-radious color; */
+    text-shadow: 2px 3px 2px white;
+
+    /* text-shadow: x-offset y-offset blur-radious spread-radoius color; */
+     text-shadow: 2px 3px 2px 20px white;
+}

@@ -1,0 +1,36 @@
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    background: yellow;
+    /* position: relative;
+    left: 100px;
+    top: 100px; */
+    /* position: absolute;
+    left: 50px;
+    top: 20px;
+    position: fixed;
+    left: 70px;
+    top: 50px;
+    position: sticky;
+    left: 100px;
+    top: 30px; */
+
+}
+/* h1{
+    display:none;
+} */
+span{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    /* display: block; */
+    /* display: inline-block; */
+    display: list-item;
+    list-style-position: inside;
+    /* list-style-position:outside; */
+    list-style-type: square;
+    list-style-type: circle;
+    margin: 10px;
+}
+
