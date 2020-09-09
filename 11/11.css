@@ -1,0 +1,46 @@
+a{
+    color: red;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: purple;
+}
+/* p::after{
+    content: "Hello my name is prashant";
+    background: yellow;
+    color: red;
+}
+p::before{
+    content: "Hello my name is prashant";
+    background: yellow;
+    color: red;
+} */
+
+p::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+h3::first-letter{
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: red;
+}
+p::first-line{
+    color: green;
+}
+p::selection{
+    background: red;
+    color: green;
+}
+::placeholder{
+    color: red;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    padding: 10px;
+}
